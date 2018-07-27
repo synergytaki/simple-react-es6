@@ -3,7 +3,7 @@ const basePath = process.cwd();
 
 module.exports = {
   entry: {
-    index: `${basePath}/src/main.jsx`,
+    index: `${basePath}/src/components/index.js`,
   },
 
   output: {
