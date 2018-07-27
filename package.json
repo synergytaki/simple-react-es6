@@ -2,7 +2,8 @@
   "name": "simple-react-es6",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": false,
+  "main": "dist/bundle.js",
   "scripts": {
     "start": "webpack-dev-server --config=webpack.dev.js",
     "build": "webpack --config=webpack.prod.js"
@@ -17,7 +18,7 @@
     "url": "https://github.com/synergytaki/simple-react-es6/issues"
   },
   "homepage": "https://github.com/synergytaki/simple-react-es6#readme",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
   },
