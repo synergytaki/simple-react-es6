@@ -3,14 +3,13 @@ const basePath = process.cwd();
 
 module.exports = {
   entry: {
-    index: `${basePath}/src/components/index.js`,
+    index: `${basePath}/src/components/index.jsx`,
   },
 
   output: {
     path: `${basePath}/dist`,
     filename: "bundle.js",
   },
-
   module: {
     rules: [
       // babel loader

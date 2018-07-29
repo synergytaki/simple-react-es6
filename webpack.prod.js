@@ -13,37 +13,43 @@ config.externals = {
     root: 'React',
     commonjs2: 'react',
     commonjs: 'react',
-    amd: 'react'
+    amd: 'react',
+    umd: 'react'
   },
   './react': {
     root: 'React',
     commonjs2: 'react',
     commonjs: 'react',
-    amd: 'react'
+    amd: 'react',
+    umd: 'react'
   },
   'react-dom': {
     root: 'ReactDOM',
     commonjs2: 'react-dom',
     commonjs: 'react-dom',
-    amd: 'react-dom'
+    amd: 'react-dom',
+    umd: 'react-dom'
   },
   './react-dom': {
     root: 'ReactDOM',
     commonjs2: 'react-dom',
     commonjs: 'react-dom',
-    amd: 'react-dom'
+    amd: 'react-dom',
+    umd: 'react-dom'
   },
   'react-transition-group': {
     root: 'ReactTransitionGroup',
     commonjs2: 'react-transition-group',
     commonjs: 'react-transition-group',
-    amd: 'react-transition-group'
+    amd: 'react-transition-group',
+    umd: 'react-transition-group'
   },
   './react-transition-group': {
     root: 'ReactTransitionGroup',
     commonjs2: 'react-transition-group',
     commonjs: 'react-transition-group',
-    amd: 'react-transition-group'
+    amd: 'react-transition-group',
+    umd: 'react-transition-group'
   },
 };
 // 製品ビルドはUMDモジュールとして出力
