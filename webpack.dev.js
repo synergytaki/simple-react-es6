@@ -3,6 +3,7 @@ const config = require('./webpack.base');
 
 // 開発ビルドはpublicフォルダに出力
 const basePath = process.cwd();
+config.entry = `${basePath}/src/main.jsx`;
 config.output.path = `${basePath}/public`;
 config.mode = 'development';
 

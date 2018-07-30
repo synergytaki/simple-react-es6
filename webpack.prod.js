@@ -8,6 +8,7 @@ config.performance = {
 };
 
 // 製品ビルドにはReact関連のコードを除外
+// あるいはdevDependenciesからreact関連を取り除いたほうがいいか
 config.externals = {
   'react': {
     root: 'React',
