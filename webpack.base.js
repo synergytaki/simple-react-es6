@@ -5,7 +5,7 @@ module.exports = {
   entry: {
     index: `${basePath}/src/components/index.jsx`,
     "Hello/index": `${basePath}/src/components/Hello/Hello.jsx`,
-    "Hello2/index": `${basePath}/src/components/Hello/Hello.jsx`,
+    "Hello2/index": `${basePath}/src/components/Hello2/Hello2.jsx`,
   },
 
   output: {
