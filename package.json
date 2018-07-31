@@ -1,11 +1,9 @@
 {
   "name": "simple-react-es6",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "",
   "private": false,
-  "main": "dist/bundle.js",
-  "module": "src/index.js",
-  "jsnext:main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --config=webpack.dev.js",
     "build": "webpack --config=webpack.prod.js"

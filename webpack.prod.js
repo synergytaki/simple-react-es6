@@ -1,7 +1,7 @@
 const config = require('./webpack.base');
 
 const basePath = process.cwd();
-config.output.path = `${basePath}/dist`;
+config.output.path = `${basePath}/core`;
 config.mode = 'production';
 config.performance = {
   hints: false,

@@ -5,6 +5,7 @@ const config = require('./webpack.base');
 const basePath = process.cwd();
 config.entry = `${basePath}/src/main.jsx`;
 config.output.path = `${basePath}/public`;
+config.output.filename = "index.js";
 config.mode = 'development';
 
 config.devServer = {

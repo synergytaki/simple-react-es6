@@ -4,11 +4,13 @@ const basePath = process.cwd();
 module.exports = {
   entry: {
     index: `${basePath}/src/components/index.jsx`,
+    "Hello/index": `${basePath}/src/components/Hello/Hello.jsx`,
+    "Hello2/index": `${basePath}/src/components/Hello/Hello.jsx`,
   },
 
   output: {
-    path: `${basePath}/dist`,
-    filename: "bundle.js",
+    path: `${basePath}/core`,
+    filename: "[name].js",
   },
   module: {
     rules: [
