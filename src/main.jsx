@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-import Hello from './components/hello.jsx';
+import Hello from './components/hello/hello.jsx';
 import World from './components/world.jsx';
 
 render(
